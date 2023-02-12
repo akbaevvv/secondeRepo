@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   background: url('../img/hero.jpg');
+   height:100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-menu{
+    display: flex;
+}
+.navbar li {
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo{
+    margin-top: 10px;
+    justify-content: center;
+}
+.info p {
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+}
+.info h1{
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+}
+button{
+    color: darkgray;
+    text-align: center;
+    display: flex;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.text{
+    padding-top: 10px;
+    width: 250px;
+    margin: auto;
+}
